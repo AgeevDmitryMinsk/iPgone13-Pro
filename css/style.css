@@ -435,7 +435,7 @@ h1, h2, h3, p, ul {
     border-color: transparent #000 #000 #000;
     height: 0;
     overflow: hidden;
-    transition: height .4s ease-in-out;
+    transition: height .9s ease-in-out;
 }
 
 .characteristics__title:focus {
