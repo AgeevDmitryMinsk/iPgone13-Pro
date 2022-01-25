@@ -601,3 +601,6 @@ h1, h2, h3, p, ul {
 }
 
 
+.cross-sell__add {
+    display: block;
+}
