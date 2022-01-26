@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a48af92f-1ea3-47ee-8df6-0394a13885cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/accordeon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/getData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642881316322</updated>
-      <workItem from="1642881318201" duration="36017000" />
+      <workItem from="1642881318201" duration="38420000" />
+      <workItem from="1643185167761" duration="719000" />
     </task>
     <servers />
   </component>

@@ -8,13 +8,13 @@ const getData = () => {
     let stack = 4
     let count = 1
 
-    buttonShowMore.addEventListener(`click`, ()=> {
-        //console.log(`buttonShowMore`)
-        ++count
+    buttonShowMore.addEventListener(`click`, () => {
+            //console.log(`buttonShowMore`)
+            ++count
             console.log(count)
             fetchData()
 
-    }
+        }
     )
 
 
@@ -38,21 +38,23 @@ const getData = () => {
 
     }
 
-    const sliceArray = (data , index) => {
-        return  data.slice(0,index)
+    const sliceArray = (data, index) => {
+        return data.slice(0, index)
     }
 
     const changeData = (data) => {
-        render(sliceArray(data, stack*count))
-        console.log(data.length, stack*count)
-        if (data.length<stack*count) {buttonShowMore.style.display="none"}
-      
+        render(sliceArray(data, stack * count))
+        console.log(data.length, stack * count)
+        if (data.length < stack * count) {
+            buttonShowMore.style.display = "none"
+        }
+
     }
 
     //fetch(`https://jsonplaceholder.typicode.com/todos`)
 
     const fetchData = () => {
-        fetch(`/cross-sell-dbase/dbase.json`)
+        fetch(`./cross-sell-dbase/dbase.json`)
             .then((resp) => {
                 //console.log(resp);
                 if (resp.ok) {
@@ -75,3 +77,5 @@ const getData = () => {
 }
 
 getData()
+
+
